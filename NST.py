@@ -43,8 +43,8 @@ loader = transforms.Compose(
     ]
 )
 
-original_img = load_image("annahathaway.png")
-style_img = load_image("style.jpg")
+original_img = load_image("original_image.png")
+style_img = load_image("style_image.jpg")
 model = VGG().to(device).eval()
 
 # generated = torch.randn(original_img.shape, device=device, requires_grad=True)
