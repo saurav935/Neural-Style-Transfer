@@ -92,3 +92,4 @@ for step in range(total_steps):
         print(total_loss)
         save_image(generated, "generated.png")
 
+        
